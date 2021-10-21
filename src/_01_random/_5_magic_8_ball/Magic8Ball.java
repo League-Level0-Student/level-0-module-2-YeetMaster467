@@ -24,16 +24,16 @@ public static void main(String[] args) {
 	int output = ran.nextInt(4);
 	
 	if(output==0) {
-		
+		JOptionPane.showMessageDialog(null, "Yes.", "Magic 8 Ball", 0, ball);
 	}
 	if(output==1) {
-		
+		JOptionPane.showMessageDialog(null, "No.", "Magic 8 ball", 0, ball);
 	}
 	if(output==2) {
-		
+		JOptionPane.showMessageDialog(null, "Maybe you should ask Google?", "Magic 8 ball", 0, ball);
 	}
 	if(output==3) {
-		
+		JOptionPane.showMessageDialog(null, "I can't tell you that.", "Magic 8 ball", 0, ball);
 	}
 		// 3. Make a variable and initialize it to a random number.
 		//     ** You will need to make a random object!
