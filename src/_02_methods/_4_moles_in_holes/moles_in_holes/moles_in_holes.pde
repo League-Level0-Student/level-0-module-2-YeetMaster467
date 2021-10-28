@@ -19,6 +19,11 @@ void draw() {
 
 /* Write code here that uses the drawMole method to put a mole in each of the holes */
 
+drawMole(300, 47);
+drawMole(70, 107);
+drawMole(200, 187);
+drawMole(297, 337);
+
 
 }
 
@@ -34,4 +39,3 @@ void drawMole(int moleX, int moleY) {
      ellipse(moleX, moleY-5, 10, 10); // nose
      ellipse(moleX, moleY+10, 20, 5); // mouth
 }
-
