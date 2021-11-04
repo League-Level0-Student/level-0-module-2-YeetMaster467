@@ -12,7 +12,7 @@ public class FixTheRandom {
 		
 		Random random = new Random();
 		
-		int numnber = random.nextInt(5);
+		int numnber = random.nextInt(10 - 5 + 1) + 5; // The problem was on this line. But I fixed it.
 		
 		if (numnber == 5) {
 			System.out.println("FIVE");
